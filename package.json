@@ -1,0 +1,21 @@
+{
+    "name": "cartosation",
+    "version": "0.0.1",
+    "description": "Realtime conversations on maps.",
+    "homepage": "http://www.geodan.nl",
+    "keywords": ["websocket", "socket", "realtime", "map", "openlayers", "conversation"],
+    "author": "Jan Boonen <jan.boonen@geodan.nl>",
+    "repository":{
+        "type": "git",
+        "url": "https://github.com/boonen/cartosation.git"
+    },    
+    "dependencies": {
+        "socket.io": "0.9.x"
+    },
+    "devDependencies": {
+        "vows": "0.6.x"
+    },
+    "engines": {
+        "node": "0.6.x"
+    }
+}
